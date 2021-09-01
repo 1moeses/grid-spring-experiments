@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+
+  font-family: sans-serif;
+  background: #f0f0f0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+}
+
+.grid {
+  position: relative;
+}
+
+.itemWrapper {
+  position: absolute;
+  padding: 4px;
+  /* touch-action: none; */
+}
+
+.item {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.removeButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: 0;
+  color: #fff;
+}
+
+.addButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
